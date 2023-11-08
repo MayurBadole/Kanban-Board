@@ -1,0 +1,41 @@
+.kanban-board {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kanban-board h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .kanban-board p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .kanban-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .kanban-columns button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .kanban-columns button:hover {
+    background: #0056b3;
+  }
+  

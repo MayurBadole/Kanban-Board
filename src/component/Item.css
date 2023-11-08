@@ -1,0 +1,51 @@
+.kanban-item {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0.25rem 0;
+  }
+  
+  .kanban-item div {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+  }
+  
+  .kanban-item input[type="text"],
+  .kanban-item input[type="date"] {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .kanban-item textarea {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .kanban-item button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
+  
+  .kanban-item button:hover {
+    background: #c82333;
+  }
+  
+  .kanban-item button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
